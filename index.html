@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<title> Erika Angarita Website</title>
+
+<link href="style.css" rel="stylesheet">
+
+
+</head>
+
+
+<body class="body-index">
+
+<header class ="home-header">
+
+
+	<h1>Erika Angarita Hormaza</h1>	
+
+	 	<ul class="menu">
+	 		<li><a href="AboutMe.html" onclick='sayHi()'>Something about Me</a></li>
+			<li><a href="contactMe.html">Contact me!</a></li>
+			<li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+		</ul>		
+	</header>
+
+
+<script src="jquery.min.js"></script>
+<script src="jquery-1.12.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+$("ul").click(function(){
+$("li").animate({
+	height: 'toggle'
+});
+});
+   
+});
+
+</script>
+
+				
+	<img id= "header-image" src="http://i.imgur.com/A2wKjLw.jpg" alt="City of Austin">
+
+</body>
+
+</html>
+
+
+
+
+
+

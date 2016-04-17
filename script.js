@@ -1,0 +1,6 @@
+
+
+function sayHi(){
+	alert ('Welcome!');
+};
+
