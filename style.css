@@ -1,8 +1,8 @@
 * {margin: 0; padding: 0; outline: 0;}
 
 .home-header{
-    
-    text-align: center;
+
+  text-align: center;
 	width: 100%;
 	height: auto;
 	background-position: center;
@@ -32,7 +32,7 @@ li{
 }
 
 .menu{
-	
+
 	opacity: 0.7;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	background-color: #888888;
@@ -53,7 +53,7 @@ a{
 	text-decoration: none;
 	display: inline;
 	color: black;
-    padding: 20px 30px 10px 20px;
+  padding: 20px 30px 10px 20px;
 	margin: auto;
 
 }
@@ -68,18 +68,18 @@ a{
 
 
 .body-index{
-	
+
 font-family: 'Poiret One', cursive;
 text-align: center;
 background-image: url("http://i.imgur.com/A2wKjLw.jpg");
 font-size: 40px;
 color: #252525;
-	
+
 }
 
 h1{
 	font-family: 'Poiret One', cursive;
-    text-align: center;
+  text-align: center;
 	color: #fff;
 	text-shadow: 4px 4px 0 #444;
 	text-align: center;
@@ -94,7 +94,7 @@ h1{
 /*h1 of About Me tag*/
 
 .my-history{
-	font-family: 'Poiret One', cursive;	
+	font-family: 'Poiret One', cursive;
 	font-size: 60px;
 	padding-bottom: 50px;
 	text-shadow:#474747 3px 5px 2px;
@@ -115,18 +115,18 @@ h1{
 
 
 .about-menu{
-	font-family: 'Poiret One', cursive;	
+	font-family: 'Poiret One', cursive;
 	text-decoration: none;
 	display: inline;
 	font-size: 30px;
 	text-align: center;
-	color: white; 
+	color: white;
 	list-style: none;
 	background-color: #333;
 	overflow: hidden;
 	margin: 0;
 	padding-right: 25px;
-	
+
 }
 
 
@@ -153,18 +153,18 @@ ul.about-menu li.icon{
 }
 
 .about-body{
-background-color: #F8F8F8 ; 
+background-color: #F8F8F8 ;
 }
 
-/*paragraph*/ 
+/*paragraph*/
 .something-about{
 	color: black;
 	text-align: center;
 	margin: 55px;
 	padding:auto;
-	font-family: 'Poiret One', cursive;	
+	font-family: 'Poiret One', cursive;
 	font-size: 30px;
-		
+
 }
 
 #object{
@@ -199,14 +199,14 @@ background-color: #F8F8F8 ;
 }
 
 .top-page{
-	font-family: 'Poiret One', cursive;	
+	font-family: 'Poiret One', cursive;
 	text-decoration: none;
 	font-size: 30px;
 	text-align: center;
 	color: white;
 	float: right;
 	display: inline;
-	margin: auto; 
+	margin: auto;
 	list-style: none;
 	background-color: #808080;
 	overflow: hidden;
@@ -275,7 +275,7 @@ input{
 
 .contactme-home{
 color: #f2f2f2;
-background-color: #282828; 
+background-color: #282828;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
