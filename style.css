@@ -11,13 +11,6 @@ a, a:hover, a:focus, .btn:focus {
     outline: none;
 }
 
-.logoName {
-    font-family: 'Satisfy', cursive;
-    font-size: 50px;
-    color: white;
-    margin-left: 20px;
-}
-
 
 /*top navbar*/
 
@@ -50,13 +43,16 @@ a, a:hover, a:focus, .btn:focus {
 
 .inspired {
     color: white;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 50px;
 }
 
 .legend {
     color: white;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
+    position: relative;
+    left: 450px;
 }
 
 main> section {
@@ -224,25 +220,11 @@ h1.navbar-brand {
     width: 50px;
 }
 
-.fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
-    height: 50px;
-    width: 50px;
-    right: 0;
-}
-
-.fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
-    height: 50px;
-    width: 50px;
-    left: 0;
-}
-
 
 /*followus section/////////*/
 
 #social {
-    background-color: #143E51;
+    /*background-color: #143E51;*/
     margin-bottom: 20px;
 }
 
@@ -401,7 +383,6 @@ textarea.form-control {
     border: 0 none;
     border-radius: 0;
     color: #c1c1c1;
-    /*padding: 13px 20px;*/
     position: relative;
     overflow: hidden;
     right: 0;
