@@ -1,288 +1,62 @@
-* {margin: 0; padding: 0; outline: 0;}
+a {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
 
-.home-header{
+a, a:hover, a:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+}
 
-  text-align: center;
-	width: 100%;
-	height: auto;
-	background-position: center;
-	background-size: 50%;
-
+.logoName {
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: white;
+    margin-left: 20px;
 }
 
 
-#header-image{
-	max-width: 100%;
-	background-position: center;
-	background-size: 50%;
+/*top navbar*/
 
-}
-
-ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: inline;
-	text-align: center;
-}
-
-li{
-	display: inline;
-
-}
-
-.menu{
-
-	opacity: 0.7;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	background-color: #888888;
-	background-size: 50%;
-	text-decoration: none;
-	display: inline;
-	margin: auto;
-	padding: 20px 30px 10px 20px;
-	font-size: 45px;
-	text-align: center;
-	color: white;
-	overflow: hidden;
-
-}
-
-a{
-
-	text-decoration: none;
-	display: inline;
-	color: black;
-  padding: 20px 30px 10px 20px;
-	margin: auto;
-
-}
-
-.menu a:hover{
-   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   color: #fff;
-   background-color:#474747;
-   text-shadow:#fff 0 0 10px;
+.nav-item {
+    text-align: right;
+    overflow: scroll;
 }
 
 
-
-.body-index{
-
-font-family: 'Poiret One', cursive;
-text-align: center;
-background-image: url("http://i.imgur.com/A2wKjLw.jpg");
-font-size: 40px;
-color: #252525;
-
-}
-
-h1{
-	font-family: 'Poiret One', cursive;
-  text-align: center;
-	color: #fff;
-	text-shadow: 4px 4px 0 #444;
-	text-align: center;
-	margin: auto;
-	padding: 40px 30px 30px 20px;
-
-}
+/*end of header//////////////////////////*/
 
 
+/*top parallax-window*/
 
-/*About Me session*/
-/*h1 of About Me tag*/
-
-.my-history{
-	font-family: 'Poiret One', cursive;
-	font-size: 60px;
-	padding-bottom: 50px;
-	text-shadow:#474747 3px 5px 2px;
-	text-align: center;
-	color:#fff;
-    text-shadow:#ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
-
-}
-
-.about-header{
-	text-align: center;
-	background-size: cover;
-	background-position: center;
-	padding-top: 40px;
-	padding-bottom: auto;
-	background: url("http://allwallpapersnew.com/wp-content/gallery/professional-background-images-for-websites/featured47@wdd2x.jpg");
-}
-
-
-.about-menu{
-	font-family: 'Poiret One', cursive;
-	text-decoration: none;
-	display: inline;
-	font-size: 30px;
-	text-align: center;
-	color: white;
-	list-style: none;
-	background-color: #333;
-	overflow: hidden;
-	margin: 0;
-	padding-right: 25px;
-
-}
-
-
-ul.about-menu{
-	float: right;
-}
-
-ul.about-menu a{
-display: inline-block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-}
-
-ul.about-menu li a:hover{
-	background-color: black;
-	 text-shadow:#fff 0 0 10px;
-}
-
-ul.about-menu li.icon{
-	display: none;
-}
-
-.about-body{
-background-color: #F8F8F8 ;
-}
-
-/*paragraph*/
-.something-about{
-	color: black;
-	text-align: center;
-	margin: 55px;
-	padding:auto;
-	font-family: 'Poiret One', cursive;
-	font-size: 30px;
-
-}
-
-#object{
-	background-color: #fe5652;
-
-	visibility: hidden;
-}
-
-
-
-#gif-about{
-	float: left;
-	margin: 0 1.5%;
-	width: auto;
-	height: 260px;
-	padding: auto;
-
-}
-
-#about-image{
-	float: right;
-	margin: 0 1.5%;
-    width: 30%;
-    height: auto;
-    padding-right: 40px;
-    padding-top: 50px;
-    transform-style: preserve-3d;
-  transition: all 1s ease-in-out;
-}
-#about-image:hover{
-	transform: rotateY(180deg);
-}
-
-.top-page{
-	font-family: 'Poiret One', cursive;
-	text-decoration: none;
-	font-size: 30px;
-	text-align: center;
-	color: white;
-	float: right;
-	display: inline;
-	margin: auto;
-	list-style: none;
-	background-color: #808080;
-	overflow: hidden;
-	padding: 10px 30px 50px 30px;
-	background: url("http://www.eeiaa.com/images/icons/back-to-top-button.png");
-	background-repeat: no-repeat;
-
-}
-
-
-/*Contact Me section*/
-
-   .contact-header{
-	text-align: center;
-	background-image: url("http://i.imgur.com/NfiwqcE.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-
-}
-
-#contact-img{
-	width: 100%;
-	height: auto;
-
-
-}
-
-.contact-body{
-	font-family: 'Poiret One', cursive;
-	font-size: 40px;
-    text-align: center;
-	color: #303030 ;
-	background: url("http://allwallpapersnew.com/wp-content/gallery/professional-background-images-for-websites/featured47@wdd2x.jpg");
+.parallax {
+    background-attachment: fixed;
+    background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.contact-me{
-	font-family: 'Poiret One', cursive;
-    text-align: center;
-	text-shadow: 4px 4px 0 #444;
-	text-align: center;
-	margin: auto;
-	padding: 40px 30px 10px 20px;
-	color:#303030;
-    text-shadow:#ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
+    height: 100vh;
 }
 
 
-.contact-social{
-	display: inline;
+/*slogan inside the parallax-window*/
+
+.inspired {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
 }
 
-
-input{
-	display: inline-block;
-	height: 25px;
-	width: auto;
-	background-color: #B93A32;
-    cursor: pointer;
-     margin: 20px;
-     padding-top: auto;
-     float: center;
- }
-
-
-
-.contactme-home{
-color: #f2f2f2;
-background-color: #282828;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 20px;
-}
-
- .contactme-home a:hover {
-   background-color: black;
-	 text-shadow:#fff 0 0 10px;
+.inspired2 {
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    padding: 20px;
 }
