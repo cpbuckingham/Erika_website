@@ -27,7 +27,7 @@ a, a:hover, a:focus, .btn:focus {
 
 .parallax {
     background-attachment: fixed;
-    background-position: center top;
+    /*background-position: center top;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,8 +51,8 @@ a, a:hover, a:focus, .btn:focus {
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    position: relative;
-    left: 450px;
+    /*position: relative;*/
+    /*left: 450px;*/
 }
 
 main> section {
