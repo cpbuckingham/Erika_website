@@ -12,7 +12,9 @@ a, a:hover, a:focus, .btn:focus {
 }
 
 
-/*top navbar*/
+/* ==========================================
+/*Top Navigation
+/* ==========================================*/
 
 .nav-item {
     text-align: right;
@@ -20,10 +22,9 @@ a, a:hover, a:focus, .btn:focus {
 }
 
 
-/*end of header//////////////////////////*/
-
-
-/*top parallax-window*/
+/* ==========================================
+/*parallax
+/* ==========================================*/
 
 .parallax {
     background-attachment: fixed;
@@ -39,7 +40,9 @@ a, a:hover, a:focus, .btn:focus {
 }
 
 
-/*slogan inside the parallax-window*/
+/* ==========================================
+/*slogan inside the parallax-window
+/* ==========================================*/
 
 .inspired {
     color: white;
@@ -49,8 +52,9 @@ a, a:hover, a:focus, .btn:focus {
 
 .legend {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arapey', serif;
     text-align: center;
+    font-size: 30px;
     /*position: relative;*/
     /*left: 450px;*/
 }
@@ -179,9 +183,8 @@ main> section {
 }
 
 
-/*Header*/
-
-
+/* ==========================================
+/*Header
 /* ==========================================*/
 
 #navigation {
@@ -221,7 +224,19 @@ h1.navbar-brand {
 }
 
 
-/*followus section/////////*/
+/* ==========================================
+/*About me section
+/* ==========================================*/
+
+.aboutErika {
+    height: 290px;
+    width: auto;
+}
+
+
+/* ==========================================
+/*Follow Me section
+/* ==========================================*/
 
 #social {
     /*background-color: #143E51;*/
