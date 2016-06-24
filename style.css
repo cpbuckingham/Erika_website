@@ -28,9 +28,10 @@ a, a:hover, a:focus, .btn:focus {
 
 .parallax {
     background-attachment: fixed;
-    /*background-position: center top;*/
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0
 }
 
 .parallax-window {
@@ -57,10 +58,6 @@ a, a:hover, a:focus, .btn:focus {
     font-size: 30px;
     /*position: relative;*/
     /*left: 450px;*/
-}
-
-main> section {
-    padding: 70px 0;
 }
 
 .btn {
@@ -231,6 +228,14 @@ h1.navbar-brand {
 .aboutErika {
     height: 290px;
     width: auto;
+}
+
+.page-header {
+    text-align: center;
+    font-family: 'Arapey', serif;
+    font-size: 40px;
+    /*position: relative;*/
+    top: 40px;
 }
 
 
