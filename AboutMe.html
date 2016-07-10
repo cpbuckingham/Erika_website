@@ -1,54 +1,171 @@
 <!DOCTYPE html>
-<head>
-<link href="style.css" rel="stylesheet">
+	<html lang="en">
 
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Something About Me</title>
-</head>
+		<!-- movile friendly -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>aboutme</title>
+
+		<!-- css -->
+		<link href="style.css" rel="stylesheet">
+
+		<!-- main js file -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet" type="text/css">
+
+		<!-- Google icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+			<!-- bootstrap.min -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
+
+
+			<!-- fontawesome -->
+			<script src="https://use.fontawesome.com/405a0adae2.js"></script>
+
+			<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+		<!-- animsition -->
+		 <!-- <link rel="stylesheet" href="./animsition/dist/css/animsition.min.css"> -->
+
+		 <!-- animsition.js -->
+		 <!-- <script src="./animsition/dist/js/animsition.min.js"></script> -->
+		 <!-- <script src="..animsition/dist/css/animsition.min.js"></script> -->
+
+     <!-- animate.css -->
+     <!-- <link rel="stylesheet" href="animate.css"> -->
+
+		</head>
+
 
 <body class="about-body">
-<header class="about-header">
 
-	<h1 class="my-history">Something About Me</h1>
+	<!-- ================================================================ -->
+	<!-- header section -->
+	<!-- ================================================================ -->
 
-<ul class="about-menu">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="contactMe.html">Contact me!</a></li>
-	
+<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+	    <div class="container header-container">
+	      <div class="navbar-header scrollContainer destination0">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	        <a class="logoName" href="index.html">Erika Angarita</a>
+	      </div>
 
-</ul>
-</header>
+		  <nav class="collapse navbar-collapse navbar-right" role="navigation">
+		    <ul id="nav" class="nav navbar-nav">
+	          <li class="nav-item"><a class= "navbar-link" href="index.html">Home</a></li>
+	          <li class="nav-item"><a class="navbar-link" href="AboutMe.html">About Me</a></li>
+	          <li class="nav-item"><a class="navbar-link" href="#">My Projects</a></li>
+						<li class="nav-item"><a class="navbar-link support transition" href="ContactMe.html">Contact Me</a></li>
 
-<script src="jquery.min.js"></script>
+	        </ul>
+	      </nav>
+	  </div>
+	</header>
+
+	<!-- ================================================================ -->
+	<!-- end of the header and top navigation -->
+	<!-- ================================================================ -->
 
 
-	<p class="something-about"> Hey there and welcome to my site! My name is Erika Angarita and I am from Colombia. I received my law degree two years ago and then I moved to the United States to be with my husband who was living here in Austin.</p>
 
-		<img id="about-image" src="https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12106750_10154289134569966_7165812814578210144_n.jpg?oh=25b605fc2bb84c6213309464e5b20396&oe=5784E88A" alt="Erika">
+<section id="about-me">
+	<h1 class="page-header">Welcome</h1>
+	<div class="container col-12">
+			<h2>Who I am</h2>
+			<img src="../Erika-Website/img/erika.jpg" class="aboutErika" alt="erika" >
+				<p>
+						Hey there and welcome to my site!
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-	<p class="something-about">Around a year and a half ago I decided to change careers and after selft teaching through different websites such as Code Academy and Khan Academy, I finally made the decision to study full time web development.</p>
-	<img id="gif-about" src="https://s-media-cache-ak0.pinimg.com/originals/70/d5/1d/70d51d2a150bebd048104aba1f0e096d.gif" alt="lady dancing">
-	<p class="something-about"> I am very excited to start the Galvanize full stack program because I want to learn as much as I can about how to be a really good programer.</p>
-	
+					</p>
+					<a href="#">Learn More about me</a>
+				</div>
+			</section>
 
-	<p class="something-about">I love to dance, to watch movies, I love photography, to travel and visit new places. One of my favorite hobbies is to play videogames and read interesting books and articles. I love to hang out with my dog Jackson and my husband at the park.</p>
 
-	<p class="something-about">One of my goals is to become a great programmer, create really cool and fun websites and have fun during the process.<br> My dream is to keep traveling the world with my husband.</p>
 
-	
+			<!-- ================================================================ -->
+			<!-- portfolio section -->
+			<!-- ================================================================ -->
 
-<script src="script.js"></script>
-<script src="jquery-1.12.3.min.js"></script>
+				<section id="portfolio">
+					<div class="container">
+						<div class="row">
+							<div class="sec-title text-center wow animated fadeInDown">
+								<h2 class="wow animated bounceInLeft"><i class="large material-icons">work</i> My projects</h2>
+							</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
+										<div class="portfolio-item">
+											<img src="img/portfolio/item.jpg" class="img-responsive" alt="si">
+												<h3><i class="fa fa-paw" aria-hidden="true"></i> PuppyLink</h3>
+													<p>Lorem Ipsum is simply dummy text of the printing and typesetting ndustry. </p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</section>
+			<!-- ================================================================ -->
+			<!-- end portfolio section -->
+			<!-- ================================================================ -->
+
+			<!-- Social section -->
+			<section id="social" class="parallax">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+
+							<div class="sec-title text-center red wow animated fadeInDown">
+								<h2 class="followUs">Follow Me</h2>
+							</div>
+
+							<ul class="social-button">
+								<li class="wow animated zoomIn"><a href="https://www.facebook.com/"><i class="fa fa-thumbs-up fa-2x"></i></a></li>
+								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end Social section -->
 
 
 <!--Link that returns to the top of the page-->
 <div class="top-page">
-	
+
 	<!--<a href="#top">Back to top</a>-->
-	<a href="#top"></a> 
+	<a href="#top"></a>
 	</div>
 
 </body>
 </html>
-

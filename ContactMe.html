@@ -1,27 +1,155 @@
 <!DOCTYPE html>
-<head>
-<link href="style.css" rel="stylesheet">
+	<html lang="en">
 
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-<script src="script.js"></script>
-<script src="jquery-1.12.3.min.js"></script>
+		<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Contact Me</title>
-</head>
+		<!-- movile friendly -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body class="contact-body">
-<header class="contact-header">
-	
-	<img id="contact-img" src="http://i.imgur.com/NfiwqcE.jpg" alt="bear">
+		<title>Erikas website</title>
 
-<a class="contactme-home" href="index.html">Home</a>
+		<!-- css -->
+		<link href="style.css" rel="stylesheet">
+
+		<!-- main js file -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet" type="text/css">
+
+		<!-- Google icon -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+			<!-- bootstrap.min -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" charset="utf-8"></script>
+
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/slit-slider.css">
+			<!-- bootstrap.min -->
+        <link rel="stylesheet" href="css/animate.css">
 
 
+			<!-- fontawesome -->
+			<script src="https://use.fontawesome.com/405a0adae2.js"></script>
+
+			<!-- Modernizer Script for old Browsers -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+		<!-- animsition -->
+		 <!-- <link rel="stylesheet" href="./animsition/dist/css/animsition.min.css"> -->
+
+		 <!-- animsition.js -->
+		 <!-- <script src="./animsition/dist/js/animsition.min.js"></script> -->
+		 <!-- <script src="..animsition/dist/css/animsition.min.js"></script> -->
+
+     <!-- animate.css -->
+     <!-- <link rel="stylesheet" href="animate.css"> -->
+
+		</head>
+
+
+<!-- ================================================================ -->
+<!-- Body -->
+<!-- ================================================================ -->
+
+<body id="body-index">
+<!-- ================================================================ -->
+<!-- preloader -->
+<!-- ================================================================ -->
+
+	<div id="preloader">
+		<div class="loder-box">
+			<div class="battery"></div>
+		</div>
+	</div>
+
+<!-- ================================================================ -->
+<!-- header section -->
+<!-- ================================================================ -->
+
+<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+    <div class="container header-container">
+      <div class="navbar-header scrollContainer destination0">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="logoName" href="index.html">Erika Angarita</a>
+      </div>
+
+	  <nav class="collapse navbar-collapse navbar-right" role="navigation">
+	    <ul id="nav" class="nav navbar-nav">
+          <li class="nav-item"><a class= "navbar-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="navbar-link" href="AboutMe.html">About Me</a></li>
+          <li class="nav-item"><a class="navbar-link" href="#">My Projects</a></li>
+					<li class="nav-item"><a class="navbar-link support transition" href="ContactMe.html">Contact Me</a></li>
+
+        </ul>
+      </nav>
+  </div>
 </header>
 
+<!-- ================================================================ -->
+<!-- end of the header and top navigation -->
+<!-- ================================================================ -->
 
-<script src="jquery.min.js"></script>
-	<h1 class="contact-me">Stay Conected</h1>
+<h1 class="contact-me">Stay Conected</h1>
+
+
+<!-- Contact section -->
+<section id="contactIndex" >
+	<div class="container">
+		<div class="row">
+
+			<div class="sec-title text-center wow animated fadeInDown">
+				<h2 class="messageUs">Contact me</h2>
+				<p>Leave me a Message</p>
+			</div>
+
+
+			<div class="col-md-7 contact-form wow animated fadeInLeft">
+				<form action="form" method="get">
+					<div class="input-field">
+						<input type="text" name="name" class="form-control" placeholder="Your Name...">
+					</div>
+					<div class="input-field">
+						<input type="email" name="email" class="form-control" placeholder="Your Email...">
+					</div>
+					<div class="input-field">
+						<input type="text" name="subject" class="form-control" placeholder="Subject...">
+					</div>
+					<div class="input-field">
+						<textarea name="message" class="form-control messageIndex" placeholder="Messages..."></textarea>
+					</div>
+							<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+				</form>
+			</div>
+
+			<div class="col-md-5 wow animated fadeInRight">
+				<address class="contact-details">
+					<h3>Email me</h3>
+					<!-- <p><i class="fa fa-envelope"></i>puppyLink@gmail.com</p> -->
+				</address>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- end Contact section -->
 
 
 <div class="contact-social">
@@ -30,8 +158,8 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 
-<form class="gmail" ACTION="mailto:erikang20@gmail.com">
-<input TYPE="submit" VALUE="Email Me">
+<form class="gmail" action="mailto:erikang20@gmail.com">
+<input type="submit" value="Email Me">
 
 </form>
 
@@ -43,6 +171,3 @@
 
 
 </html>
- 
-
-
