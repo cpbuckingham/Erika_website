@@ -12,6 +12,40 @@ a, a:hover, a:focus, .btn:focus {
 }
 
 
+/* ==========================================
+/*Header
+/* ==========================================*/
+
+#navigation {
+    -webkit-transition: all 0.8s ease 0s;
+    -moz-transition: all 0.8s ease 0s;
+    -ms-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 100s;
+    background-color: rgba(0, 0, 0, .4);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 5px 0;
+}
+
+#navigation.animated-header {
+    padding: 20px 0;
+}
+
+h1.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav> li> a {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+
 /*================================================================ */
 /*Top Navigation
 /*================================================================ */
@@ -21,13 +55,7 @@ a, a:hover, a:focus, .btn:focus {
     padding: 20px 20px;
     background-color: #1C1D21;
 
-
-
-
 }
-
-/*.header-container{
-}*/
 
 
 .navbar-inverse .navbar-nav> li> a {
@@ -54,11 +82,9 @@ a:hover, a:focus, .logoName:focus {
 }
 
 
-
-
-/* ==========================================
+/*================================================================ */
 /*parallax
-/* ==========================================*/
+/*================================================================ */
 
 .parallax {
     background-attachment: fixed;
@@ -75,24 +101,35 @@ a:hover, a:focus, .logoName:focus {
 }
 
 
-/* ==========================================
-/*slogan inside the parallax-window
-/* ==========================================*/
-
-.inspired {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-}
-
 .legend {
     color: white;
     font-family: 'Arapey', serif;
     text-align: center;
-    font-size: 30px;
-    /*position: relative;*/
-    /*left: 450px;*/
+    font-size: 60px;
+
 }
+
+/*================================================================ */
+
+
+/*================================================================ */
+/*About me section
+/*================================================================ */
+
+.aboutErika {
+    height: 290px;
+    width: auto;
+}
+
+.page-header {
+    text-align: center;
+    font-family: 'Arapey', serif;
+    font-size: 40px;
+    top: 40px;
+}
+
+
+/*================================================================ */
 
 .btn {
     border-radius: 0;
@@ -213,64 +250,6 @@ a:hover, a:focus, .logoName:focus {
     }
 }
 
-
-/* ==========================================
-/*Header
-/* ==========================================*/
-
-#navigation {
-    -webkit-transition: all 0.8s ease 0s;
-    -moz-transition: all 0.8s ease 0s;
-    -ms-transition: all 0.8s ease 0s;
-    -o-transition: all 0.8s ease 0s;
-    transition: all 0.8s ease 100s;
-    background-color: rgba(0, 0, 0, .4);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    padding: 5px 0;
-}
-
-#navigation.animated-header {
-    padding: 20px 0;
-}
-
-h1.navbar-brand {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.navbar-inverse .navbar-nav> li> a {
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-.fancybox-item.fancybox-close {
-    background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
-    height: 50px;
-    right: 0;
-    top: 0;
-    width: 50px;
-}
-
-
-/* ==========================================
-/*About me section
-/* ==========================================*/
-
-.aboutErika {
-    height: 290px;
-    width: auto;
-}
-
-.page-header {
-    text-align: center;
-    font-family: 'Arapey', serif;
-    font-size: 40px;
-    /*position: relative;*/
-    top: 40px;
-}
 
 
 /* ==========================================
