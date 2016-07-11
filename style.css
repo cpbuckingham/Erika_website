@@ -54,6 +54,7 @@ h1.navbar-brand {
 #navigation.animated-header {
     padding: 20px 20px;
     background-color: #1C1D21;
+    opacity: 0.6;
 
 }
 
@@ -103,7 +104,7 @@ a:hover, a:focus, .logoName:focus {
 
 .legend {
     color: white;
-    font-family: 'Arapey', serif;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
     font-size: 60px;
 
