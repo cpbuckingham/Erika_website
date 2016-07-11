@@ -1,10 +1,10 @@
-a {
+/*a {
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-}
+}*/
 
 a, a:hover, a:focus, .btn:focus {
     text-decoration: none;
@@ -27,31 +27,8 @@ a, a:hover, a:focus, .btn:focus {
     padding: 5px 0;
 }
 
-#navigation.animated-header {
-    padding: 20px 0;
-}
 
-h1.navbar-brand {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.navbar-inverse .navbar-nav> li> a {
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-
-
-/*================================================================ */
-/*Top Navigation
-/*================================================================ */
-
-
-#navigation.animated-header {
+#navigation, .animated-header {
     padding: 20px 20px;
     background-color: #1C1D21;
     opacity: 0.6;
@@ -60,9 +37,9 @@ h1.navbar-brand {
 
 
 .navbar-inverse .navbar-nav> li> a {
-    color: #fff;
+    /*color: #fff;*/
     font-size: 15px;
-    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .logoName {
@@ -70,16 +47,17 @@ h1.navbar-brand {
     color: white;
     margin: 10px;
     padding: 10px;
-   font-family: 'Cormorant Infant', serif;
-   text-decoration: none;
-   outline: none;
+    font-family: 'Dosis', sans-serif;
+    /*text-decoration: none;*/
+    /*outline: none;*/
+    /*background-color: green;*/
 
 }
 
 a:hover, a:focus, .logoName:focus {
     text-decoration: none;
     outline: none;
-    color: white;
+    /*color: white;*/
 }
 
 
@@ -110,8 +88,6 @@ a:hover, a:focus, .logoName:focus {
 
 }
 
-/*================================================================ */
-
 
 /*================================================================ */
 /*About me section
@@ -138,16 +114,10 @@ a:hover, a:focus, .logoName:focus {
     position: relative;
 }
 
-.btn-blue {
-    background-color: rgba(0, 158, 227, 0.78);
-    box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
-    padding: 15px 55px;
-    color: #fff;
-}
 
 .btn-border {
     border: 2px solid #fff;
-    color: #fff;
+    /*color: #fff;*/
     padding: 12px 35px;
 }
 
@@ -286,9 +256,9 @@ a:hover, a:focus, .logoName:focus {
 }
 
 .social-button li a {
-    border: 2px solid #fff;
+    border: 2px solid;
     border-radius: 50%;
-    color: #fff;
+    /*color: #fff;*/
     display: block;
     height: 90px;
     line-height: 96px;
@@ -301,8 +271,8 @@ a:hover, a:focus, .logoName:focus {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+  color: #094D92;
+  border: 2px solid #094D92;
 }
 
 
