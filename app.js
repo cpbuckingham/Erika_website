@@ -1,6 +1,7 @@
 var express = require( 'express' );
 var knex = require( 'knex' );
 var pg = require( 'pg' );
+var path = require( 'path' );
 var methodOverride = require( 'method-override' );
 var bodyParser = require( 'body-parser' );
 var routes = require( './routes/index' );
