@@ -15,16 +15,30 @@ app.config( function ( $routeProvider ) {
 		} )
 } );
 
-// parallax section
-$( document ).ready( function () {
-	$( window ).trigger( 'scroll' );
-	$( '.parallax-window' ).load( function ( parallax ) {
-		naturalWidth: 600,
-		naturalHeight: 400
-	} );
+app.controller( 'headerController', function ( $scope ) {
+	$scope.view = {};
+
+
+	// parallax section
+	// $( document ).ready( function () {
+	// 	$( window ).trigger( 'scroll' );
+	// 	$( '.parallax-window' ).load( function ( parallax ) {
+	// 		naturalWidth: 600,
+	// 		naturalHeight: 400
+	// 	} );
+	// } );
+	//
+	//
+	// $( document ).ready( function () {
+	// 	$( ".button-collapse" ).sideNav();
+	// } );
 } );
 
 
-$( document ).ready( function () {
-	$( ".button-collapse" ).sideNav();
+app.controller( 'aboutController', function ( $scope ) {
+	$scope.view = {};
+} );
+
+app.controller( 'contactController', function ( $scope ) {
+	$scope.view = {};
 } );
