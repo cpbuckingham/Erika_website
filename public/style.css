@@ -1,7 +1,16 @@
+/*a {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}*/
+
 a, a:hover, a:focus, .btn:focus {
   text-decoration: none;
   outline: none;
 }
+
 
 /* ==========================================
 /*Header
@@ -18,7 +27,7 @@ a, a:hover, a:focus, .btn:focus {
   padding: 5px 0;
 }
 
-#navigation {
+#navigation, .animated-header {
   padding: 20px 20px;
   background-color: #1C1D21;
   opacity: 0.6;
@@ -41,7 +50,8 @@ a, a:hover, a:focus, .btn:focus {
 a:hover, a:focus, .logoName:focus {
   text-decoration: none;
   outline: none;
-    /*color: white;*/;
+    /*color: white;*/
+  ;
 }
 
 
@@ -67,7 +77,9 @@ a:hover, a:focus, .logoName:focus {
   color: white;
   font-family: 'Dosis', sans-serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 70px;
+  position: relative;
+  bottom: 450px;
 }
 
 
@@ -214,7 +226,8 @@ a:hover, a:focus, .logoName:focus {
 #social {
   background-color: #F25F5C;
   margin-bottom: 20px;
-    /*opacity:*/;
+    /*opacity:*/
+  ;
 }
 
 #social .overlay {
