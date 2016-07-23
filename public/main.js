@@ -7,7 +7,7 @@ app.config( function ( $routeProvider ) {
 			controller: 'headerController'
 		} )
 		.when( '/contact', {
-			templateUrl: '/partials/contact.html',
+			templateUrl: '/partials/home.html',
 			controller: 'contactController'
 		} )
 } );
