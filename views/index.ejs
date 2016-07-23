@@ -35,9 +35,10 @@
 
     <!-- css -->
     <link href="/style.css" rel="stylesheet">
+
     <!-- main js file -->
     <script type="text/javascript" src="/main.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 	</head>
 
 
@@ -59,8 +60,6 @@
 		<!-- ================================================================ -->
 		<!-- header section -->
 		<!-- ================================================================ -->
-
-
 
 		<header id="navigation" class="navbar-inverse navbar-fixed-top animated-heade">
 			<div class="container header-container">
@@ -85,7 +84,25 @@
 			</div>
 		</header>
 
+
+    <section id="mainPage" class="content-holder" style="opacity: 1; transform: translateY(2px);">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="/css/img/DSC_0725-copy.jpg"></div>
+        <div class="parallax-slider">
+            <span class="inspired" style="position:absolute; top: 400px; left: 100px;">
+    						<legend class="legend">Welcome</legend>
+    						<legend class="legend">It's nice to meet you!</legend>
+
+    					</span>
+        </div>
+    </section>
+
+
     <div ng-view></div>
+
+
+    <!-- parallax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/css/parallax.js-1.4.2/parallax.js"></script>
 
   </body>
 </html>
