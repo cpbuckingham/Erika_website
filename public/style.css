@@ -6,6 +6,14 @@
     transition: all 0.3s ease-out 0s;
 }*/
 
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 a, a:hover, a:focus, .btn:focus {
   text-decoration: none;
   outline: none;
@@ -71,6 +79,7 @@ a:hover, a:focus, .logoName:focus {
   min-height: 700px;
   background: transparent;
   height: 100vh;
+  /*max-width: 4500px;*/
 }
 
 .legend {
