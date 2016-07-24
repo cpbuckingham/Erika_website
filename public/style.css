@@ -77,15 +77,44 @@ a:hover, a:focus, .logoName:focus {
   color: white;
   font-family: 'Dosis', sans-serif;
   text-align: center;
-  font-size: 70px;
+  font-size: 75px;
   position: relative;
   bottom: 450px;
+}
+
+div.parallax-slider{
+  margin: -30px;
+  padding: -30px;
 }
 
 
 /*================================================================ */
 /*About me section
 /*================================================================ */
+.about{
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #4F757F;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.who-i-am{
+  padding: 10px;
+  margin: 10px;
+}
 
 .aboutErika {
   height: 290px;
@@ -325,18 +354,6 @@ textarea.form-control {
   text-transform: uppercase;
 }
 
-.contact-details p {
-  line-height: 30px;
-}
-
-.contact-details p i {
-  margin-right: 10px;
-}
-
-.contact-details span {
-  display: block;
-  margin-left: 24px;
-}
 
 
 /*============================================================
