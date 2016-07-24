@@ -153,7 +153,7 @@ div.parallax-slider{
 
 .btn-border {
   border: 2px solid #fff;
-    /*color: #fff;*/
+    color: #fff;
   padding: 12px 35px;
 }
 
@@ -265,21 +265,24 @@ div.parallax-slider{
 /* ==========================================
 /*Follow Me section
 /* ==========================================*/
+.follow-me{
+  /*color: #fff;*/
+  padding: 10px;
+  margin:10px;
+  text-align: center;
+}
 
 #social {
-  background-color: #240A2B;
-  margin-bottom: 20px;
+  /*background-color: #FBFBFB;*/
+  /*background-color: #240A2B;*/
+  /*margin-bottom: 20px;*/
     /*opacity:*/
-  ;
 }
 
 #social .overlay {
   padding: 100px 0 120px;
 }
 
-.followUs {
-  color: white;
-}
 
 .social-button {
   margin: 0;
