@@ -5,7 +5,7 @@ var path = require( 'path' );
 var methodOverride = require( 'method-override' );
 var bodyParser = require( 'body-parser' );
 var routes = require( './routes/index' );
-var contact = require( './routes/contact' );
+// var contact = require( './routes/contact' );
 var app = express();
 
 
@@ -22,7 +22,7 @@ app.use( methodOverride( '_method' ) );
 
 
 app.use( '/', routes );
-app.use( '/contact', contact );
+// app.use( '/contact', contact );
 
 
 var port = process.env.PORT || 3000;

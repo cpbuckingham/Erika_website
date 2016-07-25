@@ -265,12 +265,7 @@ div.parallax-slider{
 /* ==========================================
 /*Follow Me section
 /* ==========================================*/
-.follow-me{
-  /*color: #fff;*/
-  padding: 10px;
-  margin:10px;
-  text-align: center;
-}
+
 
 #social {
   /*background-color: #FBFBFB;*/
@@ -279,7 +274,7 @@ div.parallax-slider{
     /*opacity:*/
 }
 
-#social .overlay {
+#social  {
   padding: 100px 0 120px;
 }
 
@@ -294,15 +289,17 @@ div.parallax-slider{
 .social-button li {
   display: inline-block;
   margin: 20px;
+  position: relative;
+  bottom:400px;
+  /*color: #fff;*/
 }
 
 
 .social-button li a {
   border: 2px solid;
   border-radius: 50%;
-  /*color: #fff;*/
   /*color: #009EE3;*/
-  color: #02010A;
+  color: #04052E;
   display: block;
   height: 90px;
   line-height: 96px;
@@ -379,7 +376,7 @@ textarea.form-control {
 
 #footer {
   background-color: #2E2E2E;
-  padding: 70px 0;
+  padding: 10px 0;
   color: #fff;
 }
 
