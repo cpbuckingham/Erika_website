@@ -293,16 +293,16 @@ div.parallax-slider{
 
 .social-button li {
   display: inline-block;
+  margin: 20px;
 }
 
-.social-button li:nth-child(2) {
-  margin: 0 75px;
-}
 
 .social-button li a {
   border: 2px solid;
   border-radius: 50%;
-  color: #fff;
+  /*color: #fff;*/
+  /*color: #009EE3;*/
+  color: #02010A;
   display: block;
   height: 90px;
   line-height: 96px;
@@ -323,11 +323,11 @@ div.parallax-slider{
 /*=================================================================
 	Contact
 ==================================================================*/
-
+/*
 .messageUs {
-    /*color: #009EE3;*/
+    color: #009EE3;
   padding-top: 30px;
-}
+}*/
 
 #contact {
   height: 80vh;
@@ -364,7 +364,7 @@ textarea.form-control {
 }
 
 .contact-details, h3 {
-  border-bottom: 1px solid #008ecc;
+  /*border-bottom: 1px solid #008ecc;*/
   font-weight: 700;
   margin-bottom: 15px;
   padding-bottom: 15px;
