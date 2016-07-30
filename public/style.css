@@ -5,11 +5,90 @@ html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    box-sizing: border-box;
+
 }
 
 a, a:hover, a:focus, .btn:focus {
   text-decoration: none;
   outline: none;
+}
+
+
+/*============================*/
+/*preloader*/
+/*============================*/
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+/*============================*/
+/*Battery*/
+/*============================*/
+.loder-box {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 1px;
+    height: 100px;
+    left: 50%;
+    margin-left: -64px;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    width: 128px;
+}
+
+.battery {
+    width: 60px;
+    height: 25px;
+    top: 35%;
+    border: 1px #2E2E2E solid;
+    border-radius: 2px;
+    position: relative;
+    -webkit-animation: charge 5s linear infinite;
+    -moz-animation: charge 5s linear infinite;
+    animation: charge 5s linear infinite;
+    margin: auto;
+}
+
+.battery:after {
+    background-color: #2E2E2E;
+    border-radius: 1px 1px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: -5px;
+    top: 7px;
+    width: 3px;
+}
+
+@-webkit-keyframes charge {
+    0% {
+      box-shadow: inset 0px 0px 0px #2E2E2E;}
+
+    100% {
+      box-shadow: inset 60px 0px 0px #2E2E2E;}
+
+}
+
+@-moz-keyframes charge {
+    0% {
+      box-shadow: inset 0px 0px 0px #2E2E2E;}
+    100% {
+      box-shadow: inset 60px 0px 0px #2E2E2E;}
+}
+
+@-moz-keyframes charge {
+    0% {
+        box-shadow: inset 0px 0px 0px #2E2E2E;
+    }
+    100% {
+        box-shadow: inset 60px 0px 0px #2E2E2E;
+    }
 }
 
 
@@ -26,7 +105,6 @@ a, a:hover, a:focus, .btn:focus {
   margin:0;
   padding: 0;
   /*background-color: rgba(0, 0, 0, .4);*/
-  /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);*/
   /*padding: 5px 0;*/
 }
 
@@ -61,19 +139,20 @@ a:hover, a:focus, .logoName:focus {
 /*parallax
 /*================================================================ */
 
-.parallax {
+#mainPage.content-holder.parallax {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+
 }
 
 .parallax-window {
-  min-height: 700px;
+  /*min-height: 700px;*/
   background: transparent;
   height: 100vh;
-  /*max-width: 4500px;*/
+  white-space: nowrap;
 }
 
 .legend {
@@ -82,11 +161,14 @@ a:hover, a:focus, .logoName:focus {
   text-align: center;
   font-size: 75px;
   position: relative;
-  bottom: 450px;
+  bottom: 600px;
 }
 
 .full-stack{
   font-size: 45px;
+}
+.arrow{
+  color: #b71c1c;
 }
 
 /*================================================================ */

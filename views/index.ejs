@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
 
 	<head>
 		<meta charset="utf-8">
@@ -9,36 +9,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Erikas website</title>
+		<!-- css -->
+    <link href="/style.css" rel="stylesheet">
 
-		<!-- angularjs -->
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
-
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 
 		<!-- Google fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 		<!-- Google icon -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		<!-- Compiled and minified CSS -->
+		<!-- materialize CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
 		<!-- fontawesome -->
 		<script src="https://use.fontawesome.com/405a0adae2.js"></script>
-
-
-		<!-- css -->
-    <link href="/style.css" rel="stylesheet">
-
-    <!-- main js file -->
-    <script type="text/javascript" src="/main.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+		<!-- main js file -->
+		<script src="../main.js"></script>
 	</head>
 
-
-	<!-- ================================================================ -->
-	<!-- Body -->
-	<!-- ================================================================ -->
 
 	<body id="body-index">
 		<!-- ================================================================ -->
@@ -57,23 +47,40 @@
 
 		<header>
 			<nav>
-			    <div class="nav-wrapper">
-			      <ul id="nav-mobile" class="right hide-on-med-and-down">
-			        <li><a href="">Home</a></li>
-			        <li><a href="">About Me</a></li>
-			        <li><a href="">Contact Me</a></li>
-			      </ul>
-			    </div>
+    		<div class="nav-wrapper  red darken-4">
+      		<a href="" class="brand-logo">EAH</a>
+      			<a href="" data-activates="mobile-demo" class="button-collapse">
+							<i class="material-icons">menu</i></a>
+
+							<ul class="right hide-on-med-and-down">
+				        <li><a href="">Home</a></li>
+				        <li><a href="">About Me</a></li>
+				        <li><a href="">Contact Me</a></li>
+      				</ul>
+
+					      <ul class="side-nav" id="mobile-demo">
+									<li><a href="">Home</a></li>
+					        <li><a href="">About Me</a></li>
+					        <li><a href="">Contact Me</a></li>
+					      </ul>
+    			</div>
   		</nav>
 	</header>
 
-		<div id="mainPage" class="content-holder" style="opacity: 1; transform: translateY(0px); translateZ(-10px); margin:0px;" data-natural-width="2560">
-					<div class="parallax-window" data-parallax="scroll" data-image-src="/css/img/background.jpeg"></div>
-						<div class="parallax-slider">
+		<div id="mainPage" class="content-holder" style="opacity: 1; transform: translateY(0px); margin:0px;" data-natural-width="2560">
+					<div class="parallax-window" data-depth="0.00" data-parallax="scroll" data-image-src="/css/img/background.jpeg">
+						<div class="parallax-window" data-depth="0.20" data-parallax="scroll" data-image-src="/css/img/background.jpeg">
+							<div class="parallax-window" data-depth="1.00" data-parallax="scroll" data-image-src="/css/img/background.jpeg">
+							</div>
+
 							<h1 class="legend text-center">Erika Angarita Hormaza</h1>
-							<h6 class="legend full-stack text-center">Full-Stack Web Developer</h6>
-						</div>
+							<div class="legend full-stack text-center">Full-Stack Web Developer<br>
+								<a href="#"><i class="fa fa-angle-double-down fa-2x arrow" aria-hidden="true"></i></a>
+							</div>
+
 					</div>
+				</div>
+			</div>
 
 
 
@@ -238,9 +245,6 @@
 
 
 
-    <div ng-view></div>
-
-
 <footer class="page-footer navbar-inverse" id="footer">
     	<div class="container">
     		<div class="footer-social">
@@ -253,15 +257,13 @@
     		</div>
     	</div>
     </footer>
-		
-		<!-- jquery -->
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
 
 		<!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
 		<!-- parallax -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<%# <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>%>
 	  <script src="/css/parallax.js-1.4.2/parallax.js"></script>
 
   </body>
