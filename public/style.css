@@ -104,14 +104,14 @@ a, a:hover, a:focus, .btn:focus {
   transition: all 0.8s ease 100s;
   margin:0;
   padding: 0;
-  /*background-color: rgba(0, 0, 0, .4);*/
   /*padding: 5px 0;*/
 }
 
-/*#navigation {
-  padding: 20px 20px;
+.nav-wrapper{
+  background-color: #781E1E;
+}
 
-}*/
+
 
 .navbar-nav> li> a {
     /*color: #fff;*/
@@ -119,19 +119,17 @@ a, a:hover, a:focus, .btn:focus {
   text-decoration: none;
 }
 
-/*.logoName {
-  font-size: 50px;
-  color: #006494 ;
-  margin: 10px;
-  padding: 10px;
-  font-family: 'Dosis', sans-serif;
-}*/
+.logoName{
+  font-size: 35px;
+  padding: 20px;
+  font-family: 'Covered By Your Grace', cursive;
+
+}
 
 a:hover, a:focus, .logoName:focus {
   text-decoration: none;
   outline: none;
     /*color: white;*/
-  ;
 }
 
 
@@ -176,11 +174,13 @@ a:hover, a:focus, .logoName:focus {
 /*================================================================ */
 .about{
   font-family: 'Dosis', sans-serif;
-  font-size: 60px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  /*font-size: 60px;*/
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  color: #781E1E;
   /*color: #4F757F;*/
-  color: #071F2D;
+  /*color: #071F2D;*/
   text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
                0 3px 0 #bbb,
@@ -195,9 +195,12 @@ a:hover, a:focus, .logoName:focus {
                0 20px 20px rgba(0,0,0,.15);
 }
 
-.who-i-am{
+.title{
   padding: 10px;
   margin: 10px;
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+
 }
 
 .aboutErika {
@@ -209,19 +212,21 @@ a:hover, a:focus, .logoName:focus {
   text-align: center;
   font-family: 'Arapey', serif;
   font-size: 40px;
-  /*top: 40px;*/
 }
 
 /*================================================================ */
 /*My projects*/
 /*================================================================ */
 .my-projects{
-  padding: 10px;
-  margin: 10px;
+  padding-top: 30px;
+  margin-top: 30px;
+
 }
 
 .puppy-link{
   color: black;
+  font-family: 'Covered By Your Grace', cursive;
+
 }
 
 
