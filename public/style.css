@@ -476,9 +476,9 @@ height: 260px;
 
 .code-display::before {
 content: "Expertise";
-position: absolute;
-top: -70px;
-left: 0;
+position: relative;
+/*top: -70px;
+left: 0;*/
 font-size: 3.0rem;
 color: #333;
 }
@@ -589,7 +589,7 @@ background-position: right center;
 .hex-master-wrap {
 position: relative;
 left: 150px;
-bottom:80px;
+bottom:90px;
  /*width: 100%; */
 min-width: 665px;
 height: 460px;
