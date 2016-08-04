@@ -34,6 +34,8 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.ui.js"></script>
 
+		<link href="/main.scss" rel="stylesheet">
+
 		<!-- main js file -->
 		<script src="../main.js"></script>
 	</head>
@@ -55,7 +57,86 @@
 		<!-- ================================================================ -->
 
 		<header>
-			<nav>
+			<nav class="menu-wrapper">
+			  <button class="menu-btn" has-ripple="true">
+			    <i></i>
+			    <i></i>
+			    <i></i>
+			    <span class="ripple"></span>
+  			</button>
+
+	  <ul class="menu">
+	    <li class="menuitem-wrapper">
+	      <div class="icon-holder">
+	        <a href="#" class="menu-item">
+	            <i class="material-icons">home</i>
+	        </a>
+      </div>
+
+      <svg class="circle-holder">
+        <circle r="88" cx="50%" cy="50%" fill="none">
+        </circle>
+      </svg>
+    </li>
+
+    <li class="menuitem-wrapper">
+      <div class="icon-holder">
+        <a href="#" class="menu-item">
+            <i class="material-icons">face</i>
+        </a>
+      </div>
+
+      <svg class="circle-holder">
+        <circle r="88" cx="50%" cy="50%" fill="none">
+        </circle>
+      </svg>
+    </li>
+
+    <li class="menuitem-wrapper">
+      <div class="icon-holder">
+        <a href="#" class="menu-item">
+            <i class="material-icons">android</i>
+        </a>
+      </div>
+
+      <svg class="circle-holder">
+        <circle r="88" cx="50%" cy="50%" fill="none">
+        </circle>
+      </svg>
+    </li>
+
+    <li class="menuitem-wrapper">
+      <div class="icon-holder">
+        <a href="#" class="menu-item">
+            <i class="material-icons">shopping_cart</i>
+        </a>
+      </div>
+
+      <svg class="circle-holder">
+        <circle r="88" cx="50%" cy="50%" fill="none">
+        </circle>
+      </svg>
+    </li>
+
+    <li class="menuitem-wrapper">
+      <div class="icon-holder">
+        <a href="#" class="menu-item">
+            <i class="material-icons">room</i>
+        </a>
+      </div>
+
+      <svg class="circle-holder">
+        <circle r="88" cx="50%" cy="50%" fill="none">
+        </circle>
+      </svg>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+			<%# <nav>
     		<div class="nav-wrapper">
       		<a href="" class="logoName">EAH</a>
       			<a href="" data-activates="mobile-demo" class="button-collapse">
@@ -73,7 +154,7 @@
 					        <li><a href="">Contact Me</a></li>
 					      </ul>
     			</div>
-  		</nav>
+  		</nav>%>
 	</header>
 
 		<div id="mainPage" class="content-holder" style="opacity: 1; transform: translateY(0px); margin:0px;" data-natural-width="2560">
@@ -135,7 +216,7 @@
 			<section class="intro">
 				<div class="intro-block">
 					<div class="hex-master-wrap">
-						<div class="hover-notify">Hover Me!</div>
+						<div class="hover-notify">Skills</div>
 
 							<div class="grid-1">
 								<div class="hex-wrap backend" data-title="BACKEND" data-content="backend-desc" data-color="#333333">
@@ -225,7 +306,7 @@
 																			</div>
 
 																<div class="grid-3">
-																	<div class="hex-wrap gui" data-title="USER INTERFACE" data-content="gui-desc" data-color="#2C3E52">
+																	<div class="hex-wrap gui" data-title="TEAM PLAYER" data-content="gui-desc" data-color="#2C3E52">
 																			<div class="hex-init"></div>
 																				<div class="hex-borders">
 																					<div class="border-1"></div>
@@ -241,7 +322,7 @@
 																			</div>
 																		</div>
 
-																<div class="hex-wrap seo" data-title="SEO" data-content="seo-desc" data-color="#C0392B">
+																<div class="hex-wrap seo" data-title="something" data-content="seo-desc" data-color="#C0392B">
 																		<div class="hex-init"></div>
 																			<div class="hex-borders">
 																				<div class="border-1"></div>
@@ -263,21 +344,21 @@
 													<div class="code-description">
 														<div class="backend-desc">
 															<p class="code-title"></p>
-															<p><span>Duration:</span>1 Year</p>
+															<%# <p><span>Duration:</span>1 Year</p>%>
 															<p><span>Experience</span>SQL, NodeJS</p>
 															<div class="code-icon"></div>
 														</div>
 
 														<div class="frontend-desc">
 															<p class="code-title"></p>
-															<p><span>Duration:</span>1 Year</p>
-															<p><span>Experience</span>HTML, CSS, Javascript</p>
+															<%# <p><span>Duration:</span>1 Year</p>%>
+															<p><span>Experience</span>HTML, CSS, Javascript, AngularJs</p>
 															<div class="code-icon"></div>
 														</div>
 
 													<div class="javascript-desc">
 														<p class="code-title"></p>
-														<p><span>Duration:</span>1 Year</p>
+														<%# <p><span>Duration:</span>1 Year</p>%>
 														<p><span>Experience</span>Javascript, Jquery, AngularJS, NodeJS</p>
 														<div class="code-icon"></div>
 													</div>
@@ -289,65 +370,6 @@
 										</div>
 									</div>
 						</section>
-
-										<div class="container">
-
-											<h1 class="title text-center">My Skills</h1>
-												<h4 class="text-center">I do all kinds of neat stuff</h4>
-
-													<div class="row">
-														<div class="col s4">
-															<h3><i class="fa fa-html5" aria-hidden="true"></i> HTML</h3>
-															<div class="progress">
-																<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-															</div>
-														</div>
-													</div>
-
-														<div class="col s4">
-															<h3><i class="fa fa-css3" aria-hidden="true"></i> CSS</h3>
-																<div class="progress">
-																	<div class="progress-bar progress-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-																</div>
-															</div>
-														</div>
-
-														<div class="col s4">
-															<h3><i class="fa fa-code" aria-hidden="true"></i> JavaScript</h3>
-																<div class="progress">
-																	<div class="progress-bar progress-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-																</div>
-															</div>
-														</div>
-
-														<div class="col s4">
-															<h3><i class="material-icons">important_devices</i> JQuery</h3>
-																<div class="progress">
-																	<div class="progress-bar progress-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-																</div>
-															</div>
-														</div>
-
-														<div class="col s4">
-															<h3><i class="fa fa-camera" aria-hidden="true"></i> Photography</h3>
-																<div class="progress">
-																	<div class="progress-bar progress-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-																</div>
-															</div>
-														</div>
-
-														<div class="col s4">
-															<h3><i class="fa fa-smile-o" aria-hidden="true"></i> Sense of humor</h3>
-																<div class="progress">
-																	<div class="progress-bar progress-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Proficient<span class="sr-only"></span>
-																</div>
-															</div>
-														</div>
-													</div>
-										</div>
-
-
-								</div>
 
 
 <!--================================================================-->
