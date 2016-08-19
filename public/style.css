@@ -140,6 +140,16 @@ a {color: white;text-decoration: none;}
 
 }
 
+.arrow {
+  text-align: center;
+  /*margin: 8% 0;*/
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
 a:hover, a:focus, .logoName:focus {
   text-decoration: none;
   outline: none;
