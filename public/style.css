@@ -134,12 +134,12 @@ a {color: white;text-decoration: none;}
   text-decoration: none;
 }*/
 
-.logoName{
+/*.logoName{
   font-size: 35px;
   padding: 20px;
   font-family: 'Covered By Your Grace', cursive;
 
-}
+}*/
 
 .arrow {
   text-align: center;
@@ -167,15 +167,12 @@ a {color: white;text-decoration: none;}
 a:hover, a:focus, .logoName:focus {
   text-decoration: none;
   outline: none;
-    /*color: white;*/
+    color: white;
 }
 
 .home {
-  /*width: 100%;*/
-  /*height: 100vh;*/
   position: relative;
-  /*background-image: url(https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=067f0b097deff88a789e125210406ffe);*/
-  /*background-size: cover;*/
+  background-size: cover;
   background-position: center center;
 }
 
@@ -186,7 +183,7 @@ a:hover, a:focus, .logoName:focus {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: hsla(0, 0%, 100%, 0.2);
   display: none;
   opacity: 0;
@@ -194,7 +191,7 @@ a:hover, a:focus, .logoName:focus {
 
 nav,
 nav ul {
-  width: 100%;
+  /*width: 100%;*/
   height: 100%;
   margin: 0;
   padding: 0;
@@ -500,7 +497,7 @@ Animation keyframes
     flex-direction: column;
   }
   nav ul li {
-    height: 70%;
+    height: 800%;
   }
   nav ul li a {
     font-size: 11px;
