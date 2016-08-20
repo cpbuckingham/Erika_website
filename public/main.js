@@ -4,6 +4,9 @@ $( window ).load( function () {
 } );
 
 $( document ).ready( function () {
+
+    $( '.modal-trigger' ).leanModal();
+
     $( '.open-overlay' ).click( function () {
         $( '.open-overlay' ).css( 'pointer-events', 'none' );
         var overlay_navigation = $( '.overlay-navigation' ),

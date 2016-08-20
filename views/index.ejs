@@ -310,27 +310,43 @@
 
 			<div class="row" id="contact">
 				<h1>Contact Me</h1>
-    		<form class="col s12">
-      		<div class="row">
-        		<div class="input-field col s6">
-          		<input  id="name" type="text" class="validate">
-          			<label for="name">Your Name</label>
-        				</div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
 
-        			<div class="input-field col s6">
+		<!-- Modal Trigger -->
+		  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contact Me</a>
+			  <div id="modal1" class="modal">
+			    <div class="modal-content">
+			      <h4>Contact Me </h4>
+						<form class="col s12">
+	        		<div class="input-field col s8">
+	          		<input  id="name" type="text" class="validate">
+	          			<label for="name">Your Name</label>
+        			</div>
+
+        			<div class="input-field col s8">
           			<input id="email" type="text" class="validate">
           				<label for="email">Your Email</label>
         				</div>
-      				</div>
-    				</form>
-					</div>
-		<!-- end Contact section -->
 
-						<%# <form class="gmail" action="mailto:erikang20@gmail.com">
-						<input type="submit" value="Email Me">
+								<div class="input-field col s8">
+	          			<input id="subject" type="text" class="validate">
+	          				<label for="subject">Subject</label>
+	        				</div>
 
-						</form>%>
+								<div class="input-field col s8">
+          				<textarea id="message" class="materialize-textarea"></textarea>
+          					<label for="message">Message</label>
+        					</div>
+    						</form>
+		    			</div>
 
+		    		<div class="modal-footer">
+		      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+		    </div>
+		  </div>
+		</div>
 
 
 
@@ -354,7 +370,6 @@
 		<!-- parallax -->
 		<%# <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>%>
 	  <script src="/css/parallax.js-1.4.2/parallax.js"></script>
-
 
   </body>
 </html>

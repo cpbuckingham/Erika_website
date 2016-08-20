@@ -1252,44 +1252,6 @@ div.parallax-slider{
 
 }
 
-.input-field {
-  margin-bottom: 10px;
-}
-
-.form-control {
-  border: 1px solid #ececec;
-  border-radius: 0;
-  box-shadow: none;
-  color: #818181;
-  font-size: 16px;
-  height: 50px;
-}
-
-textarea.form-control {
-  width: 100%;
-  height: 165px;
-}
-
-#submit:hover {
-  color: #fff;
-}
-
-#submit:before {
-  background-color: #0A85BB;
-}
-
-#submit.btn-effect:after {
-  background: #2E2E2E;
-}
-
-.contact-details, h3 {
-  /*border-bottom: 1px solid #008ecc;*/
-  font-weight: 700;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  text-transform: uppercase;
-}
-
 
 
 /*============================================================
@@ -1316,35 +1278,6 @@ textarea.form-control {
   text-transform: uppercase;
 }
 
-/*.subscribe-form {
-  position: relative;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-}
-
-.subscribe, .form-control {
-  background-color: transparent;
-  border: 1px solid #7f7f7f;
-}
-
-.subscribe, .form-control:focus {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}*/
-
-.submit-icon {
-  background-color: #7f7f7f;
-  border: 0 none;
-  border-radius: 0;
-  color: #c1c1c1;
-  position: relative;
-  overflow: hidden;
-  right: 0;
-  top: 0;
-  margin-bottom: 50px;
-  padding-bottom: 40px;
-}
 
 .submit-icon .fa-paper-plane {
   position: relative;
@@ -1404,4 +1337,9 @@ textarea.form-control {
 .footer-content> p {
   color: #ababab;
   font-size: 12px;
+}
+
+.copyright{
+  text-align: center;
+  color: #9e9e9e;
 }
