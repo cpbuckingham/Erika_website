@@ -107,40 +107,6 @@ body {
 }*/
 a {color: white;text-decoration: none;}
 
-/*
-
-#navigation {
-  -webkit-transition: all 0.8s ease 0s;
-  -moz-transition: all 0.8s ease 0s;
-  -ms-transition: all 0.8s ease 0s;
-  -o-transition: all 0.8s ease 0s;
-  transition: all 0.8s ease 100s;
-  margin:0;
-  padding: 0;*/
-  /*padding: 5px 0;*/
-/*}*/
-
-/*.nav-wrapper{
-  background-color: #d50000;*/
-  /*opacity:0.3;*/
-  /*background-color: #364156;*/
-  /*background-color: #1B2A41;*/
-/*}*/
-
-
-/*.navbar-nav> li> a {
-    color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-}*/
-
-/*.logoName{
-  font-size: 35px;
-  padding: 20px;
-  font-family: 'Covered By Your Grace', cursive;
-
-}*/
-
 .arrow {
   text-align: center;
   margin: 5% 0;
@@ -164,10 +130,10 @@ a {color: white;text-decoration: none;}
   }
 }
 
-a:hover, a:focus, .logoName:focus {
+a:hover, a:focus {
   text-decoration: none;
   outline: none;
-    color: white;
+  color: white;
 }
 
 .home {
@@ -274,6 +240,7 @@ nav li a:after {
   font-family: 'Open sans', serif;
   font-weight: 300;
   font-style: italic;
+  font-size: 20px;
   letter-spacing: 0;
 }
 
@@ -559,11 +526,12 @@ Animation keyframes
 /*About me section
 /*================================================================ */
 .about{
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'Nunito', sans-serif;
   /*font-size: 60px;*/
   text-align: center;
   padding: 20px;
   margin: 20px;
+  /*color: blue;*/
   /*color: #781E1E;*/
   /*color: #4F757F;*/
   /*color: #071F2D;*/
@@ -1253,7 +1221,7 @@ div.parallax-slider{
 }
 
 .contact_title{
-  font-family: 'Londrina Outline', cursive;
+  font-family: 'Nunito', sans-serif;
 
 }
 
