@@ -1,27 +1,29 @@
 {
-  "name": "Erika-Website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Erikang20/Erika_website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Erikang20/Erika_website/issues"
-  },
-  "homepage": "https://github.com/Erikang20/Erika_website#readme",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "jquery": "^3.1.0",
-    "knex": "^0.11.9",
-    "method-override": "^2.3.6",
-    "pg": "^6.0.3"
-  }
+	"name": "Erika-Website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Erikang20/Erika_website.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Erikang20/Erika_website/issues"
+	},
+	"homepage": "https://github.com/Erikang20/Erika_website#readme",
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"jquery": "^3.1.0",
+		"knex": "^0.11.9",
+		"method-override": "^2.3.6",
+		"pg": "^6.0.3"
+	}
 }
