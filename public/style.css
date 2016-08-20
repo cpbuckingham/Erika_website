@@ -540,11 +540,16 @@ Animation keyframes
 
 .legend {
   color: white;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Londrina Outline', cursive;
+
+  /*font-family: 'Dosis', sans-serif;*/
   text-align: center;
   font-size: 75px;
   position: relative;
   bottom: 600px;
+  /*text-shadow: 0 1px 0 #ccc;*/
+
+
 }
 
 .full-stack{
