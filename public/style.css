@@ -111,6 +111,9 @@ a {color: white;text-decoration: none;}
   text-align: center;
   margin: 5% 0;
 }
+/*.arrow:target{
+  scroll-behavior: smooth;
+}*/
 
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -526,12 +529,11 @@ Animation keyframes
 /*About me section
 /*================================================================ */
 .about{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Playfair Display', serif;
   /*font-size: 60px;*/
   text-align: center;
   padding: 20px;
   margin: 20px;
-  /*color: blue;*/
   /*color: #781E1E;*/
   /*color: #4F757F;*/
   /*color: #071F2D;*/
