@@ -74,8 +74,6 @@ $( document ).ready( function () {
     $( 'nav ul li a' ).click( function () {
         var overlay_navigation = $( '.overlay-navigation' );
         $( this ).toggleClass( 'clicked' );
-
-        // overlay_navigation.removeClass( 'overlay-slide-down' ).addClass( 'overlay-slide-up' )
         overlay_navigation.velocity( 'transition.fadeOut', {
             delay: 0,
             duration: 300,
