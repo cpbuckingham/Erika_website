@@ -85,6 +85,8 @@ $( document ).ready( function () {
         console.log( "delaying" );
     } );
 
+    // $( '.arrow' ).click( function () {} )
+
 
 
     console.log( "here" );
@@ -160,7 +162,6 @@ $( document ).ready( function () {
 } );
 
 
-// $( document ).ready( function ( parallax ) {
 $( window ).trigger( 'scroll' );
 $( '#scene' ).load( function ( parallax ) {
     //         // naturalWidth: 600,

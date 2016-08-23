@@ -493,6 +493,16 @@ Animation keyframes
   }
 }
 
+.st-scroll {
+	top: 0;
+	left: 0;
+	transition: all 0.6s ease-in-out;
+
+	/* Let's enforce some hardware acceleration */
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+}
+
 
 /*================================================================ */
 /*parallax
