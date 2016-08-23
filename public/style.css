@@ -529,6 +529,7 @@ Animation keyframes
 }
 .arrow{
   color: white;
+  transition: all .2s linear;
 }
 
 /*================================================================ */

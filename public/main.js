@@ -44,6 +44,7 @@ $( document ).ready( function () {
             } );
 
         } else {
+            // $( this ).toggleClass( 'clicked' );
             $( '.open-overlay' ).css( 'pointer-events', 'auto' );
             top_bar.removeClass( 'animate-top-bar' ).addClass( 'animate-out-top-bar' );
             middle_bar.removeClass( 'animate-middle-bar' ).addClass( 'animate-out-middle-bar' );
@@ -64,6 +65,8 @@ $( document ).ready( function () {
                                 duration: 50
                             } );
                             $( '.open-overlay' ).css( 'pointer-events', 'auto' );
+                            // $( 'overlay_navigation' ).hide();
+
                         }
                     } );
                 }
